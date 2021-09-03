@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,700&family=Dosis:wght@800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/*CSS For Navigation*/
+.navbar-brand:hover{
+    color: blue!important;
+}
+nav.bg-custome{
+    background-color: #7d9ccf;
+    color: white;
+}
+.navbar>.navbar-brand{
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    color: white;
+}
+li.nav-item>a{
+    color: white!important;
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+}
+
+/*CSS For Landing Page*/
+div#banner{
+    display: inline-flex;
+    justify-content: center;
+    align-items: start;
+
+    width: 100%;
+    height: 720px;
+    background-color: #7d9ccf;
+}
+
+div#banner>section{
+    margin-top: 7.5%;
+    padding: 5%;
+}
+
+div#banner>section.image{
+    position: relative;
+    bottom: 75px;
+    left: 25px;
+    transform: rotate(15deg);
+}
+
+#tagline{
+    font-style: italic;
+    font-family: 'Alegreya', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color:white;
+}
+
+div#banner>section.content>a:hover{
+    transform:scale(1.1);
+}
+
+div#banner>section.image:hover{ 
+    transform: rotate(-15deg);
+}
+
+
+/*CSS For Products Page*/
+.products{
+    background-color: #7d9ccf;
+    margin: 0;
+}
+.product-image{
+    width: 100%;
+    height: auto;
+}
+.kode_sepatu{
+    font-style: italic;
+}
+.nama_sepatu{
+    font-weight: bold;
+}
+
+.card>a:hover{
+    transform: scale(1.1);
+}
+
+/*CSS For Product Detail*/
+.product-detail{
+    display: flex;
+    background-color: #7d9ccf ;
+}
+.product_img{
+    width: 40%;
+    
+    height: auto;
+}
+
+
+/*CSS For Shopping Cart*/
+td, th{
+    padding: 1.5em;
+}
+.foto_sepatu{
+    width: 150px;
+    height: 150px;
+}
+.shopping-cart{
+    background-color: #7d9ccf;
+    height: 1024px;
+}
+.shopping-cart>h4{
+    color: white;
+    margin-bottom: 2%;
+    text-align: center;
+}
+table{
+    border-radius: 15px;
+}
+
+.btn-checkout:hover{
+    transform: scale(1.1);
+    background-color: green;
+    border: 1px solid green;
+}
+
+/*CSS For Form checkout*/
+.form-checkout{
+    background-color: #7d9ccf;
+    height: 1024px;
+}
+
+/*CSS For Detail Checkout*/
+.detail-checkout{
+    background-color: #7d9ccf;
+    height: 1024px;
+}
